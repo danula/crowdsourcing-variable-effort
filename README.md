@@ -40,11 +40,19 @@ The file `ground-truth-HumanFace140.csv` includes ground truth annotations for 1
             }
     }
 
-You can also download the images from the following public S3 bucket.
+Images are included in the `images` folder. You may also download the images from the following public S3 bucket.
 
 https://danula-task-decomposition.s3-us-west-2.amazonaws.com/images/<image_id>.jpg
 
+### Publication
 
 Please cite the following paper if you are using this dataset. For any questions, refer to the paper or contact the authors.
 
 > D. Hettiachchi, M. Schaekermann, T. McKinney, M. Lease (2021). The Challenge of Variable Effort Crowdsourcing and How Visible Gold Can Help. Proceedings of the ACM on Human-Computer Interaction, 5 (CSCW2), 332:1-332:26. https://doi.org/10.1145/3476073
+
+
+### License
+
+The ground truth annotations are derivatives of Open Images by Google LLC used under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) and are licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) by D. Hettiachchi, M. Schaekermann, T. McKinney, M. Lease.
+
+The images are listed as having a [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/) license.
